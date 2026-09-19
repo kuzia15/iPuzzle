@@ -1,5 +1,3 @@
-# iPuzzle
-
 <p align="center">
   <img src="pics/logo.png">
 </p>
