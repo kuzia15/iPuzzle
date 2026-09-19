@@ -1,7 +1,3 @@
-<h3 align="center">
-iPuzzle
-</h3>
-
 <p align="center">
   <img src="pics/logo.png">
 </p>
