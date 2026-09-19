@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/gg"
+        android:text="Молодец!"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/gg"
+        android:text="Звёзд: 0"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starcenter" />
+
+    <TextView
+        android:id="@+id/answersText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/gg"
+        android:text="Правильных ответов: 0 из 10"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText" />
+
+    <Button
+        android:id="@+id/againButton"
+        android:layout_width="145dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="125dp"
+        android:animation="@anim/button_click"
+        android:background="@drawable/btn_play"
+        android:fontFamily="@font/gg"
+        android:text="ЕЩЁ РАЗ ▶"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/menuButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="145dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="125dp"
+        android:animation="@anim/button_click"
+        android:background="@drawable/btn_more"
+        android:fontFamily="@font/gg"
+        android:text="В МЕНЮ"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/againButton" />
+
+    <ImageView
+        android:id="@+id/starcenter"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/starnearr"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/star"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/starcenter"
+        app:layout_constraintEnd_toStartOf="@+id/starcenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/starnearl"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/star"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/starcenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/starcenter"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

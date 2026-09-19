@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iPuzzle</string>
+
+    <string name="game_level">Пазл %1$d/%2$d</string>
+    <string name="game_stars">%d</string>
+    <string name="answer_correct">Правильно!</string>
+
+    <string name="result_score">Звёзд: %d</string>
+    <string name="result_answers">Правильных ответов: %1$d из %2$d</string>
+
+    <string name="choose_difficulty">Выберите сложность:</string>
+    <string name="difficulty_easy">Лёгкий (10)</string>
+    <string name="difficulty_medium">Средний (15)</string>
+    <string name="difficulty_hard">Сложный (20)</string>
+</resources>

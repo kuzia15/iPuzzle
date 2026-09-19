@@ -1,0 +1,12 @@
+<resources>
+    <color name="cream">#FFF7EA</color>
+    <color name="brown">#6D5848</color>
+    <color name="green">#7CB342</color>
+    <color name="orange">#FFB74D</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_primary">#ffffff</color>
+    <color name="text_on_color">#FFFFFF</color>
+
+    <color name="red">#FF0000</color>
+</resources>

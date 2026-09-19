@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    XML-форма-пример для визуальных элементов пазла.
+    Реальные 4x4/5x5/6x6 детали генерируются Java, потому что
+    их четыре стороны и текстура картинки зависят от соседей.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeColor="#777777"
+        android:strokeWidth="2"
+        android:pathData="M0,0 L32,0 C32,-12 68,-12 68,0 L100,0 L100,32 C112,32 112,68 100,68 L100,100 L68,100 C68,112 32,112 32,100 L0,100 L0,68 C-12,68 -12,32 0,32 Z"/>
+</vector>

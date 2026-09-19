@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#2878D6"/>
+                    <corners android:radius="28dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1F5FB5"/>
+                </shape>
+            </item>
+            <item
+                android:width="34dp"
+                android:height="34dp"
+                android:gravity="center">
+                <vector
+                    android:width="34dp"
+                    android:height="34dp"
+                    android:viewportWidth="24"
+                    android:viewportHeight="24">
+                    <path
+                        android:fillColor="#FFFFFF"
+                        android:pathData="
+                        M20,11
+                        H7.83
+                        L13.42,5.41
+                        L12,4
+                        L4,12
+                        L12,20
+                        L13.41,18.59
+                        L7.83,13
+                        H20
+                        V11Z"/>
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="#5CCBFF"
+                        android:endColor="#3489F5"
+                        android:angle="90"/>
+                    <corners android:radius="28dp"/>
+                    <stroke
+                        android:width="1px"
+                        android:color="#9DE8FF"/>
+                </shape>
+            </item>
+            <item
+                android:width="34dp"
+                android:height="34dp"
+                android:gravity="center">
+                <vector
+                    android:width="34dp"
+                    android:height="34dp"
+                    android:viewportWidth="24"
+                    android:viewportHeight="24">
+
+                    <path
+                        android:fillColor="#FFFFFF"
+                        android:pathData="
+                        M20,11
+                        H7.83
+                        L13.42,5.41
+                        L12,4
+                        L4,12
+                        L12,20
+                        L13.41,18.59
+                        L7.83,13
+                        H20
+                        V11Z"/>
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+</selector>
