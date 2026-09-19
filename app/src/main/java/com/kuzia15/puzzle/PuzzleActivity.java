@@ -35,8 +35,6 @@ public class PuzzleActivity extends Activity implements PuzzleView.Listener {
 
     Button a1, a2, a3, back;
     Button[] answers;
-
-    int stars;
     int rounds;
     int correctAnswers;
     Question question;
@@ -102,7 +100,6 @@ public class PuzzleActivity extends Activity implements PuzzleView.Listener {
 
     @Override
     public void onPuzzleSolved() {
-        stars++;
         updateHeader();
         showQuestion();
     }
