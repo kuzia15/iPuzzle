@@ -21,12 +21,14 @@ public class MainActivity extends Activity {
         ImageView play = findViewById(R.id.playButton);
         play.setOnClickListener(v -> {
             v.startAnimation(AnimationUtils.loadAnimation(this, R.anim.button_click));
+            SoundManager.get(this).playClick();
             showDifficultyDialog();
         });
 
         ImageView more = findViewById(R.id.moreButton);
         more.setOnClickListener(v -> {
             v.startAnimation(AnimationUtils.loadAnimation(this, R.anim.button_click));
+            SoundManager.get(this).playClick();
             Intent intent = new Intent(Intent.ACTION_VIEW,
                     Uri.parse("https://github.com/kuzia15"));
             startActivity(intent);

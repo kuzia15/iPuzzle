@@ -66,6 +66,10 @@ public class SoundManager {
         playEffect(R.raw.wrong);
     }
 
+    public void playClick() {
+        playEffect(R.raw.btn_click);
+    }
+
     public void playVictory() {
         startBackgroundMusic();
         playEffect(R.raw.victory);

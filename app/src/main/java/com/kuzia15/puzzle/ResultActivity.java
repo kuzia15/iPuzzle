@@ -53,6 +53,7 @@ public class ResultActivity extends Activity {
 
         findViewById(R.id.againButton).setOnClickListener(v -> {
             v.startAnimation(AnimationUtils.loadAnimation(this, R.anim.button_click));
+            SoundManager.get(this).playClick();
             Intent i = new Intent(this, PuzzleActivity.class);
             i.putExtra(PuzzleActivity.EXTRA_DIFFICULTY, total);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -62,6 +63,7 @@ public class ResultActivity extends Activity {
 
         findViewById(R.id.menuButton).setOnClickListener(v -> {
             v.startAnimation(AnimationUtils.loadAnimation(this, R.anim.button_click));
+            SoundManager.get(this).playClick();
             Intent i = new Intent(this, MainActivity.class);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(i);
