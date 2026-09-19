@@ -101,10 +101,6 @@ public class PuzzleView extends View {
         return levelIndex + 1;
     }
 
-    int getTotalLevels() {
-        return totalLevels;
-    }
-
     void setListener(Listener listener) {
         this.listener = listener;
     }
