@@ -5,6 +5,7 @@ import android.media.AudioAttributes;
 import android.media.MediaPlayer;
 
 // thanks opensrc
+// jk xD
 public class SoundManager {
 
     static SoundManager instance;
